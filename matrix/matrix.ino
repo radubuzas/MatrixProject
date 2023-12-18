@@ -820,6 +820,8 @@ void handleHowToPlay()
         return;
     }
 
+    thisColumn = 16;
+
     if (direction == UP)
     {
         if (++option > 2)
