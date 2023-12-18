@@ -2,8 +2,6 @@
 
 ## Description
 
-## Description
-
 Welcome to Tank Battle, an exciting game where you take on the role of a tank commander on a mission to destroy all the hardened walls on a dynamic battlefield. The game starts with a cheerful greeting message displayed on the 8x8 LED matrix. If you're eager to jump into action, a quick press of the joystick button skips the greeting message, getting you straight into the game.
 
 ### Gameplay
