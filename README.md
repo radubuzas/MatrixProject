@@ -140,6 +140,6 @@ Welcome to Tank Battle, an exciting game where you take on the role of a tank co
 
 
 ## [DEMO](https://youtu.be/WOwh-9-vRxs)
-[![](https://img.youtube.com/vi/WOwh-9-vRxs/0.jpg)](https://youtu.be/WOwh-9-vRxs)
+[![](https://img.youtube.com/vi/zOQ15DALtWg/0.jpg)](https://youtu.be/zOQ15DALtWg)
 
 ## [Code](https://github.com/radubuzas/MatrixProject/blob/master/matrix/matrix.ino)
