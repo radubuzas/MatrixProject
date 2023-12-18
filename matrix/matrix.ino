@@ -156,6 +156,9 @@ const byte HAMMER[matrixSize] = {0b00010000, 0b01111000, 0b01111100, 0b11111000,
 const byte CHALLICE[matrixSize] = {0b10000001, 0b11000011, 0b01000010, 0b01100110,
                                    0b00111100, 0b00011000, 0b00011000, 0b00111100};
 
+const byte QUESTION[matrixSize] = {0b00111100, 0b01000100, 0b01000100, 0b00000100,
+                                   0b00011000, 0b00010000, 0b00000000, 0b00010000};
+
 byte trophyChar[8] = {B10001, B10001, B11011, B01010, B00100, B01110, B00100, B11111};
 
 void setup()
@@ -169,7 +172,7 @@ void setup()
     pinMode(pinX, INPUT);
     pinMode(pinY, INPUT);
 
-    randomSeed(analogRead(0));
+    randomSeed(analogRead(5));
 
     attachInterrupt(digitalPinToInterrupt(pinSW), handleInterrupt, FALLING);
 
@@ -1340,6 +1343,15 @@ void showImage()
         for (byte row = 0; row < matrixSize; ++row)
         {
             lc.setRow(0, row, CHALLICE[row]);
+        }
+        return;
+    }
+
+    if (navMenu == ABOUT)
+    {
+        for (byte row = 0; row < matrixSize; ++row)
+        {
+            lc.setRow(0, row, QUESTION[row]);
         }
         return;
     }
