@@ -300,7 +300,7 @@ void showCurrentStatus()
 
     lcd.print(timeInGameMs / 1000);
     lcd.write('.');
-    lcd.print(timeInGameMs % 1000 / 10);
+    lcd.print(timeInGameMs % 1000 / 100);
 }
 
 //--------------------------------------------------------------------//--------------------------------------------------------------------//
